@@ -1,0 +1,38 @@
+@charset "utf-8"; 
+/* fonts.css v0.1.draft-2 */
+
+body {
+	padding: .5em; 
+	padding-bottom: 1.5em;
+	font-family: 'AppleSDGothicNeo-Light', '맑은 고딕', '나눔 고딕', sans-serif;
+	font-weight: normal;
+	line-height: 1.8;
+	color: #333;
+}
+
+h1, 
+h2 {
+	font-family: 'AppleSDGothicNeo-Thin'; 
+	font-weight: 100;
+	line-height: 1;
+}
+h2 { margin-top: 1.5em; }
+
+
+h1:before, 
+h2:before {
+	display: block; 
+	margin-bottom: .3em;
+	font-size: 10px; 
+	font-weight: 100;
+	color: #aaa; 
+}
+h1:before { content: "H1"; }
+h2:before { content: "H2"; }
+
+
+ul, ol { padding-left: 1.5em; }
+
+
+a { color: #4078c0; text-decoration: none; }
+a:hover { text-decoration: underline; }

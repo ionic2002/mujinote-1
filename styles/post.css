@@ -1,0 +1,21 @@
+@charset "utf-8"; 
+
+.post_ pre {
+	padding: .8em; 
+	border: 1px solid #ccc; 
+	border-radius: 4px; 
+	background-color: #fcfcfc; 
+	tab-size: 2;
+}
+.post_ code { word-break: break-word; }
+
+.post_ p code,
+.post_ p kbd {
+	padding: .1em .3em; 
+	background-color: #eee; 
+}
+
+
+._includes-hidden--true { display: none; }
+
+.widget-navigator--index { margin: 0; padding: 0; }

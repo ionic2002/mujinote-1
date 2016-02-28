@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>{{ page.title }} | mujinote</title>
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="./styles/fonts.css">
+<link rel="stylesheet" href="./styles/post.css">
+</head>
+<body class="mujinote__ post_">
+	
+	{% include widget-navigator--index.html %}
+	
+	{{ content }}
+
+	{% include module-page--tags.html %}
+	
+<script src="./scripts/referrer.js"></script>
+</body>
+</html>

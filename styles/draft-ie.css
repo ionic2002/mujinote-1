@@ -1,0 +1,13 @@
+@charset "utf-8"; 
+
+
+/*.draft .left-arrow { display: none; }*/
+.draft .left-arrow-ie {
+	display: inline-block;
+	margin-bottom: -0.1em;
+	width: 13px; 
+	height: 13px; 
+	border: 1px solid green; 
+	background: transparent url('../images/svg-icon-left-arrow.png') no-repeat center center; 
+	background-size: 13px 13px; 
+}
